@@ -544,6 +544,15 @@ ul.dc_paginationA03 li a:hover, ul.dc_paginationA03 li a.current {
 	background-position: -600px -40px;
 }
 
+/*---search-bar----*/
+.search-bar{
+	float:right;
+}
+.header-nav1 ul{
+	float:left;
+}
+
+
 
 
 
