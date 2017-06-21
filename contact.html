@@ -23,61 +23,114 @@
 
   <!-- Add your site or application content here -->
 
-  <body>
-    <!-- Start-wrap -->
+  <!-- Start-wrap -->
 
-    <!-- Start-Header-->
+  <!-- Start-Header-->
 
-    <div class="header">
-      <div class="wrap">
-        <!-- Start-logo-->
-        <div class="logo">
-          <a href="index.html"><img src="images/logo.png" title="logo-IgoTech" /></a>
-        </div>
-
-        <!-- End-Logo-->
-        <!-- Start-Header-nav-->
-
-        <div class="clear"> </div>
-
-        <!-- End-Header-nav-->
-      </div>
-    </div>
-    <div class="header-nav1">
-      <div class="wrap">
-        <ul>
-          <li class="current"><a href="index.html">Blog</a></li>
-          <li><a href="#">IgoTech</a></li>
-          <li><a href="#">Articles</a></li>
-          <li><a href="#">Archives</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-
-        <div class="search-bar">
-          <ul>
-            <li><input type="text"></li>
-            <li><input type="submit" value=""/></li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- End-Header-->
-      <div class="clear"> </div>
-      <!-- content-gallery-->
-    </div>
+  <div class="header">
     <div class="wrap">
-      <div class="about">
-        <div class="services-sidebar">
-          <h4>Catégories</h4>
-          <ul>
-            <li><img src="images/pointer.png" title="pointer" /><a href="#">Catégorie 1</a></li>
-            <li><img src="images/pointer.png" title="pointer" /><a href="#">Catégorie 2</a></li>
-            <li><img src="images/pointer.png" title="pointer" /><a href="#">Catégorie 3</a></li>
-          </ul><br>
-          <h4>Archives</h4>
-          <ul>
-            <li><img src="images/pointer.png" title="pointer" /><a href="#">Jan, 2017</a></li>
-            <li><img src="images/pointer.png" title="pointer" /><a href="#">Fev, 2017</a></li>
-            <li><img src="images/pointer.png" title="pointer" /><a href="#">Mars, 2017</a></li>
-          </ul>
-        </div>
+      <!-- Start-logo-->
+      <div class="logo">
+        <a href="index.html"><img src="favicon.ico" title="logo" /></a>
+      </div>
+
+      <!-- End-Logo-->
+      <!-- Start-Header-nav-->
+
+      <div class="clear"> </div>
+
+      <!-- End-Header-nav-->
+    </div>
+  </div>
+  <div class="header-nav1">
+    <div class="wrap">
+      <ul>
+        <li class="current"><a href="index.html">Blog</a></li>
+        <li><a href="index.html">IgoTech</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Archives</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="search-bar">
+        <ul>
+          <li><input type="text"></li>
+          <li><input type="submit" value=""/></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- End-Header-->
+    <div class="clear"> </div>
+    <!-- content-gallery-->
+  </div>
+  <div class="wrap">
+    <div style="border:none;" class="about">
+
+      <div class="contact-form">
+        <h4>Restons en contact !</h4>
+
+        <form name="myForm" onsubmit="return validateForm()">
+          <div>
+            <span><label>Votre nom et prénom</label></span>
+            <span><input type="text" value="" /></span>
+          </div>
+          <div>
+            <span><label>Votre Email</label></span>
+            <span><input type="text" value="" /></span>
+          </div>
+          <div>
+            <span><label>Objet:</label></span>
+            <span><textarea> </textarea></span>
+          </div>
+          <div>
+            <span>
+              <input type="submit" value="Envoyer" onclick="return confirm('Confirmer envoi du formulaire')">
+            </span>
+          </div>
+        </form>
+
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.4527378954385!2d3.1897425150333545!3d50.67442077908336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3287cf91e104f%3A0xa6ae6585f5725be4!2sA.D.E.P.!5e0!3m2!1sfr!2sfr!4v1497949417670" width="425" height="346" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <br /><small><a href="http://maps.google.co.in/?ie=UTF8&amp;ll=14.264383,79.804688&amp;spn=153.263776,68.554688&amp;t=m&amp;z=2&amp;source=embed" style="color:#264284;font-family: 'Carrois Gothic SC', sans-serif;text-align:left">Agrandir la carte</a></small>
+      </div>
+
+      <!-- DC Pagination:C9 End -->
+    </div>
+  </div>
+
+  <div class="clear"> </div>
+  <!-- End-content-gallery-->
+  <!-- DC Pagination:C9 Start -->
+  <div class="wrap">
+
+  </div><br><br>
+</div>
+<div class="clear"> </div>
+<div class="footer">
+  <div class="wrap">
+    <h3>1er blog et forum dédié Nouvelles Technologies !</h3>
+    <p>IgoTech est un blog dédié Nouvelles Technologies qui a pour objectif d’informer sur les tendances en matière de technologie.</p>
+
+    <div class="footerlinks">
+      <div class="share">
+        <li><a href="#" target="_blank" title="Facebook"><span class="social fbook"> </span></a></li>
+        <li><a href="#" target="_blank" title="Twitter"><span class="social twitter"> </span></a></li>
+        <li><a href="#" target="_blank" title="Tumblr"><span class="social tumblr"> </span></a></li><br/>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+<div class="footer1">
+  <p class="link"><span>© Tout droits réservés / Crée par&nbsp; <a href="http://CreasyCarlito.com/"> @CreasyCarlito</a>	</span></p>
+</div>
+<!-- End-wrap -->
+<!-- End-wrap -->
+
+</body>
+
+
+</html>
